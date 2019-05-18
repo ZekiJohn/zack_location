@@ -6,7 +6,7 @@
  */
 
 require('./bootstrap');
-
+var password = require('password-strength-meter');
 window.Vue = require('vue');
 
 /**

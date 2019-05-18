@@ -12,8 +12,12 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
+    // public function testBasicTest()
+    // {
+    //     $this->assertTrue('laravel');
+    // }
     public function testBasicTest()
     {
-        $this->assertTrue(true);
+        $this->visit('/')->see('laravel');
     }
 }
